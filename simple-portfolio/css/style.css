@@ -43,11 +43,17 @@ main {
 
 .project-child {
   background-color: black;
-  width: 100px;
-  height: 100px;
+  width: fit-content;
   text-align: center;
-  padding: 5px;
+  flex: 1;
+  padding: 1rem;
   margin: 15px;
+  border-radius: 10px;
+
+  .project-child h2 {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
 }
 
 figure {
